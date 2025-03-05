@@ -10,7 +10,7 @@ NFN introduces Alice - pioneering unbiased crypto, AI, and Web3 news coverage th
 ## Alice's Mission
 Alice is being designed to provide unbiased news coverage on crypto, AI, and Web3. Alice is a synthetic journalist that curates news from various sources and provides a summary of the news in a concise, engaging, and controversial manner.
 
-## Techonology
+## Technology
 
 Alice employs open-weights from head to toe. Here are the technologies that Alice uses:
 ### News analysis and generation:
@@ -32,7 +32,7 @@ The ultimate goal is to make Alice capable of generating videos of her deliverin
 **Important remark:** this repository is a first draft of the system, it is being restructured, refactored, and improved.
 Apologies if you find it messy, we are working on it.
 
-The system is designed as follows:
+The system uses python 3.10.12, relies on HuggingFace for open-weights, and it is designed as follows:
 ### News generation (core/not_fetcher.py)
 - For now, Alice grabs news from newsapi.org. Based on keywords (e.g., crypto, AI, Web3).
 - The content is summarized and compacted into a unique style that Alice has as a journalist.
@@ -69,5 +69,6 @@ retrieve_news_est_times = [18]
 - Image generation fine-tuning.
 - Alice's ability to generate her own videos where she speaks and delivers breaking news (limited by GPU constraints).
 - Reformat the code and make it more modular.
+- Activate the crypto tracker posting.
 - Join the generation scripts into one.
 - Generate a cleaner requirements.txt.
