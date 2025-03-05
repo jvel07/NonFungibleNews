@@ -47,6 +47,12 @@ The system is designed as follows:
 
 ## Beta Version
 Alice is currently in beta. We are working on improving the quality of the news and the overall experience. We are also working on adding more features to Alice.
+### Install and Run
+- Clone the repository.
+- Install the requirements:
+```
+pip install -r requirements.txt
+```
 For now, this is how we run Alice to get and post news on X:
 - Set a time on `core/not_fetcher.py` to run the script that generates the news, for instance:
 ```
@@ -64,3 +70,4 @@ retrieve_news_est_times = [18]
 - Alice's ability to generate her own videos where she speaks and delivers breaking news (limited by GPU constraints).
 - Reformat the code and make it more modular.
 - Join the generation scripts into one.
+- Generate a cleaner requirements.txt.

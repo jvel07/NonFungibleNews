@@ -309,8 +309,7 @@ class TweetScheduler:
 
 def main():
     # Load environment variables
-    # load_dotenv('../synthetic_minds/.env')
-    load_dotenv('.env')
+    load_dotenv('../.env')
 
     # Initialize configurations
     twitter_config = TwitterConfig(
