@@ -16,8 +16,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from diffusers import StableDiffusion3Pipeline
-from core.llm_instance import LLMSummarizer
-from core.news_prompts import news_writing_shorten_prompt
+from llm_instance import LLMSummarizer
+from news_prompts import news_writing_shorten_prompt
 from utils import generate_image_sdxl, get_news_from_csv
 
 
@@ -55,7 +55,7 @@ class SchedulerConfig:
     llm_model: str = "meta-llama/Llama-3.1-8B-Instruct"
     signature: str = "\n\nAlice K.\nSynthetic Journalist | NFN"
     cache_dir: str = "/srv/data/fuser/hf_cache"
-    env_path: str = "../synthetic_minds/.env"
+    env_path: str = ".env"
     tweet_history_path: Path = Path("tweet_history.txt")
     include_crypto: bool = False
 
@@ -309,7 +309,7 @@ class TweetScheduler:
 
 def main():
     # Load environment variables
-    load_dotenv('../.env')
+    load_dotenv('.env')
 
     # Initialize configurations
     twitter_config = TwitterConfig(

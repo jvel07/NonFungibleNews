@@ -286,7 +286,7 @@ class TrendTracker:
             return []
 
 def retrieve_news(est_time_str):
-    load_dotenv('../.env')
+    load_dotenv('.env')
     try:
         tracker = TrendTracker(
             newsapi_key=os.getenv('NEWS_API_KEY_2'),
