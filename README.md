@@ -1,5 +1,6 @@
 # The World's First Synthetic Journalist - by Non-Fungible News
-
+### Follow on X: [NonFungibleNews](https://x.com/NonFungibleNews) <br/>
+### Check our Website (Beta): [nonfungiblenews.xyz](https://www.nonfungiblenews.xyz/)
 ## You Guessed It Right!
 Crypto/AI/Web3 news are highly biased. Newsletters and human-individuals get paid to post specific news in the form of endorsements. They also sensationalize general news. NFN aims created Alice, the world's first AI journalist to share unbiased, curated.
 
