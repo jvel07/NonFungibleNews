@@ -14,14 +14,11 @@ import re
 from typing import Dict, List
 import numpy as np
 import torch
-from pyexpat.errors import messages
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from sympy.physics.units import minute
-from transformers import pipeline
 
 from llm_instance import LLMSummarizer
-from prompts.news_prompts import news_sys_prompt, news_writing_shorten_prompt
+from news_prompts import news_sys_prompt, news_writing_shorten_prompt
 
 class TrendTracker:
     def __init__(self, newsapi_key: str, twitter_bearer_token: str):
@@ -336,10 +333,6 @@ def get_local_budapest_hour():
     return local_now
 
 def signal_handler(signum, frame):
-    """
-    Handle shutdown signals gracefully.
-    This function will be called when CTRL+C is pressed or when the process receives SIGINT/SIGTERM.
-    """
     global running
     print("\nShutdown signal received. Waiting for current cycle to complete...")
     running = False
@@ -404,5 +397,5 @@ running = True
 if __name__ == "__main__":
     # timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     # all_news = retrieve_news(try_now=True)
-    retrieve_news_est_times = [11]
+    retrieve_news_est_times = [12]
     run_continuous_tracker(retrieve_news_est_times=retrieve_news_est_times)

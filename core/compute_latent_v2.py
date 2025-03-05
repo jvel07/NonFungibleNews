@@ -10,14 +10,14 @@ import requests
 import schedule
 import torch
 import tweepy
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import List, Tuple, Optional
 from pathlib import Path
 from dotenv import load_dotenv
 
 from diffusers import StableDiffusion3Pipeline
-from llm_instance import LLMSummarizer
-from prompts.news_prompts import news_writing_shorten_prompt
+from core.llm_instance import LLMSummarizer
+from core.news_prompts import news_writing_shorten_prompt
 from utils import generate_image_sdxl, get_news_from_csv
 
 
