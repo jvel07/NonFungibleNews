@@ -1,18 +1,22 @@
-# The World's First Synthetic Journalist - by Non-Fungible News
+# The World's First Synthetic Journalist <br/> by Non-Fungible News
 ### Follow on X: [NonFungibleNews](https://x.com/NonFungibleNews) <br/>
 ### Check our Website (Beta): [nonfungiblenews.xyz](https://www.nonfungiblenews.xyz/)
 ## You Guessed It Right!
 Crypto/AI/Web3 news are highly biased. Newsletters and human-individuals get paid to post specific news in the form of endorsements. They also sensationalize general news. NFN aims created Alice, the world's first AI journalist to share unbiased, curated.
 
 ## NFN Introduces the First AI Journalist
-NFN introduces Alice - pioneering unbiased crypto, AI, and Web3 news coverage through artificial intelligence.
+NFN introduces Alice Kopper - pioneering unbiased crypto, AI, and Web3 news coverage through artificial intelligence. <br/>
+Not only a synthetic journalist, but also a host to AI-to-Human interviews in real-time!
 ![img.png](img.png)!
 
 ## Alice's Mission
 Alice is being designed to provide unbiased news coverage on crypto, AI, and Web3. Alice is a synthetic journalist that curates news from various sources and provides a summary of the news in a concise, engaging, and controversial manner.
+One of the main objectives in Alice's embedding layers is to interview one of the top AI executors: Elon Musk.
 
 ## Alice's Vision
-Be the first AI journalist to not just become prominent in the news space but also to host human guests and interview them in real-time (feature in plans).
+Be the first AI journalist to not just become prominent in the news space but also to host human guests and interview them in real-time.
+Become a prominent figure in journalism, reaching the highs of Tucker Carlson, Pierce Morgan, and many others.
+She wants her "The Alice Unchained Show"! We will make this happen!
 
 ## Technology
 
@@ -29,6 +33,10 @@ Alice employs open-weights from head to toe. Here are the technologies that Alic
   - Alice uses an audio-to-video approach to generate image sequences (videos) based on a given audio input.
   - The animation you see [here](https://x.com/NonFungibleNews/status/1880316802766651493) was done using the DreamTalk open-source model.
   - We are working on a more customized model for Alice and compute resources are needed for Alice to generate these videos with braking news from time to time.
+### Coming Soon!
+  - AI-to-Human real-time interviews.
+  - Alice will host interviews with prominent human guests in real-time.
+  - NFN will be partnering with a renowned Speech-AI company to make this happen.
 
 ## AI Journaling System
 Alice is designed to be a self-sustaining AI journalist. Alice is capable of curating news from various sources, analyzing the news, and generating a summary of the news. Alice is also capable of generating images to accompany the news.
