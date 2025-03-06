@@ -325,7 +325,7 @@ def main():
     )
 
     # Initialize components
-    retrieve_times = ["18"]
+    retrieve_times = ["11"]
     twitter_poster = TwitterPoster(twitter_config)
     scheduler = TweetScheduler(scheduler_config, twitter_poster, retrieve_times)
 

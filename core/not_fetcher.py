@@ -397,5 +397,5 @@ running = True
 if __name__ == "__main__":
     # timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     # all_news = retrieve_news(try_now=True)
-    retrieve_news_est_times = [12]
+    retrieve_news_est_times = [11]
     run_continuous_tracker(retrieve_news_est_times=retrieve_news_est_times)

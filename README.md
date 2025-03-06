@@ -78,3 +78,5 @@ retrieve_news_est_times = [18]
 - Join the generation scripts into one.
 - Generate a cleaner requirements.txt.
 - Design and implement AI-to-Human real-time interview.
+- Make database for the news and images.
+- Implement torch dataset handling.
