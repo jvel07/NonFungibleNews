@@ -11,6 +11,9 @@ NFN introduces Alice - pioneering unbiased crypto, AI, and Web3 news coverage th
 ## Alice's Mission
 Alice is being designed to provide unbiased news coverage on crypto, AI, and Web3. Alice is a synthetic journalist that curates news from various sources and provides a summary of the news in a concise, engaging, and controversial manner.
 
+## Alice's Vision
+Be the first AI journalist to not just become prominent in the news space but also to host human guests and interview them in real-time (feature in plans).
+
 ## Technology
 
 Alice employs open-weights from head to toe. Here are the technologies that Alice uses:
@@ -23,6 +26,7 @@ Alice employs open-weights from head to toe. Here are the technologies that Alic
 ### Voice generation (TTS): 
   - Alice relies on Coqui's xtts_v2 TTS model which uses a manually crafted female voice for Alice.
 ### Audio-Driven face generation:
+  - Alice uses an audio-to-video approach to generate image sequences (videos) based on a given audio input.
   - The animation you see [here](https://x.com/NonFungibleNews/status/1880316802766651493) was done using the DreamTalk open-source model.
   - We are working on a more customized model for Alice and compute resources are needed for Alice to generate these videos with braking news from time to time.
 
@@ -73,3 +77,4 @@ retrieve_news_est_times = [18]
 - Activate the crypto tracker posting.
 - Join the generation scripts into one.
 - Generate a cleaner requirements.txt.
+- Design and implement AI-to-Human real-time interview.
