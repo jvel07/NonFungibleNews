@@ -88,3 +88,4 @@ retrieve_news_est_times = [18]
 - Design and implement AI-to-Human real-time interview.
 - Make database for the news and images.
 - Implement torch dataset handling.
+- Improve the News Scoring System.
